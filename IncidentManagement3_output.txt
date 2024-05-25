@@ -1,0 +1,62 @@
+number of total responders is 4
+adding incident 123 security_alert priority 10
+adding incident 101 zombie_attack priority 7
+adding incident 303 signaling_fault priority 5
+adding incident 444 obstacle_on_tracks priority 10
+adding incident 555 extreme_weather_conditions priority 9
+
+ list*************
+ incident 123 security_alert robbery
+ incident 444 obstacle_on_tracks car on tracks
+ incident 555 extreme_weather_conditions storm
+ incident 101 zombie_attack herd of zombies from Colunia university
+ incident 303 signaling_fault delays in signaling
+************
+
+handling specific incident 101
+responder for incident 101 is Brad
+handling next incident
+error code is 9
+
+ list*************
+ incident 444 obstacle_on_tracks car on tracks
+ incident 555 extreme_weather_conditions storm
+ incident 303 signaling_fault delays in signaling
+*************
+
+adding incident 666 rush hours priority 1
+
+ list*************
+ incident 444 obstacle_on_tracks car on tracks
+ incident 555 extreme_weather_conditions storm
+ incident 303 signaling_fault delays in signaling
+ incident 666 platform_overcrowding rush hours
+*************
+
+handling next incident
+responder for incident 444 of type 3 is Muhamad of role operator
+adding incident 777 ticketing disorders priority 2
+
+ list*************
+ incident 555 extreme_weather_conditions storm
+ incident 303 signaling_fault delays in signaling
+ incident 777 ticketing_disorders broken ticketing machine
+ incident 666 platform_overcrowding rush hours
+*************
+
+handling next incident
+responder for incident 555 of type 7 is Maayan of role administrator
+handling specific incident 777
+responder for incident 777 is Angelina
+handling next incident
+responder for incident 303 of type 5 is Maayan of role administrator
+
+ list*************
+ incident 666 platform_overcrowding rush hours
+*************
+
+report busiest responder
+printing statistics of user with id 7564 and role administrator
+num of handled indices 2
+average handled priority 7.000000
+most frequent handled incident type signaling_fault

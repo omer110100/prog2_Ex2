@@ -1,0 +1,6 @@
+id:3034 name:Angelina role:3
+id:2345 name:Brad role:1
+id:0000 name:BambiThag role:666
+id:5678 name:Moshe role:12
+id:9874 name:Muhamad role:1
+id:7564 name:Maayan role:0

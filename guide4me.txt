@@ -1,0 +1,5 @@
+כדי להפעיל את הקובץ צריך לבצע קודם את הפקודה
+gcc IncidentManagement.c -Wall -pedantic-errors -o IncidentManagement
+
+לאחר מכן את הפקודה
+./IncidentManagement < responders.txt

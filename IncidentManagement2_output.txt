@@ -1,0 +1,52 @@
+number of total responders is 4
+adding incident 303 zombie_attack priority 5
+adding incident 303 vandalism priority 6
+error code is 2
+adding incident 101 violence priority 9
+adding incident 444 extreme_weather_conditions priority 10
+adding incident 555 extreme_weather_conditions priority 9
+
+ list*************
+ incident 444 extreme_weather_conditions hurricane
+ incident 101 violence massive attack
+ incident 555 extreme_weather_conditions storm
+ incident 303 zombie_attack the walkig dead
+************
+
+handling next incident
+responder for incident 444 of type 7 is Maayan of role administrator
+handling specific incident 303
+responder for incident 303 is Maayan
+
+ list*************
+ incident 101 violence massive attack
+ incident 555 extreme_weather_conditions storm
+*************
+
+adding incident 666 rush hours priority 1
+
+ list*************
+ incident 101 violence massive attack
+ incident 555 extreme_weather_conditions storm
+ incident 666 platform_overcrowding rush hours
+*************
+
+handling next incident
+responder for incident 101 of type 0 is Angelina of role analyst
+handling next incident
+responder for incident 555 of type 7 is Maayan of role administrator
+
+ list*************
+ incident 666 platform_overcrowding rush hours
+*************
+
+request report on Angelina
+printing statistics of user with id 3034 and role analyst
+num of handled indices 1
+average handled priority 9.000000
+most frequent handled incident type violence
+report busiest responder
+printing statistics of user with id 7564 and role administrator
+num of handled indices 3
+average handled priority 8.000000
+most frequent handled incident type extreme_weather_conditions
